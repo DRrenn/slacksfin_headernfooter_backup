@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/dist/scss/main.css">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/52d420b8c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <div class="header">
+        <div class="header_container">
+          <div class="logo">
+            <img src="/dist/img/logo.png" alt="">
+          </div>
+          <div class="menu">
+            <div class="nav">
+              <ul>
+                <li class="feat">
+                  <h1>Features</h1>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                <li class="sol">
+                  <h1>Solution</h1>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+
+                  <li><a href="">Enterprise</a></li>
+
+                  <li  class="res">
+                    <h1>Resources</h1>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </li>
+                  <li><a href="">Pricing</a></li>
+             
+              </ul>
+            </div>
+            <div class="btns">
+              <div class="btnsearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="btn_signin">
+                <h1>Sign in</h1>
+              </div>
+              <div class="btn_talkto">
+                <h1>TALK TO SALES</h1>
+              </div>
+              <div class="btn_getstarted">
+                <h1>GET STARTED</h1>
+              </div>
+              <div class="burger" onclick="showPanel()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+      
+
+        </div>
+      </div>
+    </header>
+    
+    <!-- <div class="burger_content">
+      <div class="header_burger">
+        <div class="logo">
+          <img src="/dist/img/logo.png" alt="">
+        </div>
+        <div class="exit">
+          <i class="fa-solid fa-x" onclick="burgerShow()"></i>
+        </div>
+    </div>
+        <div class="container">
+                <div class="content">
+                    <ul class="content_conts">
+                        <li class="items">
+                          <div class="title">
+                            <h1>Features</h1>
+                            <i class="fa-solid fa-angle-right" onclick="featShow()"></i>
+                          </div>
+
+                   
+                        </li>
+
+
+
+                        <li class="items">
+                          <div class="title">
+                            <h1>Solutions</h1>
+                            <i class="fa-solid fa-angle-right" onclick=""></i>
+                          </div>
+                        </li>
+                        <li class="items">
+                          <div class="title">
+                            <h1>Enterprise</h1>
+                          </div>
+                        </li>
+                        <li class="items">
+                          <div class="title">
+                            <h1>Resources</h1>
+                            <i class="fa-solid fa-angle-right"></i>
+                          </div>
+                          <div class="content">
+
+                          </div>
+                        </li>
+                        <li class="items">
+                          <div class="title">
+                            <h1>Pricing</h1>
+                          </div>
+                        </li>
+                        <li class="items">
+                          <div class="title">
+                            <h1>Watch demo</h1>
+                          
+                          </div>
+                        
+                        </li>
+                        <li class="items">
+                          <div class="title">
+                            <h1>Sign in</h1>
+                          </div>
+                        
+                        </li>
+                        
+                    </ul>
+              </div>
+
+              <div class="buttons">
+                <div>TALK TO SALES</div>
+                <div>DOWNLOAD SLACK</div>
+              </div>
+
+
+        </div>
+    </div> -->
+
+
+  <div class="header_dropdown">
+    <div class="header_dropdown_wrapper">
+      <div class="header_dropdown_container">
+
+        <div class="drop_content" id="drp_feat">
+
+         <div class="maincont_container">
+          <div class="main_cont_wrapper">
+
+            <div class="drop_text">
+              <div class="collab">
+                <h1>COLLABORATION</h1>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <h6>Channels</h6>
+                      <p>Organize teams and work</p>
+                    </li>
+                    <li>
+                      <h6>Slack Connect</h6>
+                      <p>Work with external partners</p>
+                    </li>
+                    <li>
+                      <h6>Messaging</h6>
+                      <p>Chat with your team</p>
+                    </li>
+                    <li>
+                      <h6>Huddles</h6>
+                      <p>Meet with audio and audio</p>
+                    </li>
+                    <li>
+                      <h6>Clips</h6>
+                      <p>Record and updates</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="collab">
+                <h1>Project Management</h1>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <h6>Templates</h6>
+                      <p>Organize teams and work</p>
+                    </li>
+                    <li>
+                      <h6>Slack Connect</h6>
+                      <p>Work with external partners</p>
+                    </li>
+                    <li>
+                      <h6>Messaging</h6>
+                      <p>Chat with your team</p>
+                    </li>
+                    <li>
+                      <h6>Huddles</h6>
+                      <p>Meet with audio and audio</p>
+                    </li>
+                    <li>
+                      <h6>Clips</h6>
+                      <p>Record and updates</p>
+                    </li>
+                  </ul>
+                </div>
+                <h1 class="tmdz">INTEGRATIONS</h1>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <h6>Templates</h6>
+                      <p>Organize teams and work</p>
+                    </li>
+                    <li>
+                      <h6>Slack Connect</h6>
+                      <p>Work with external partners</p>
+                    </li>
+                    <li>
+                      <h6>Messaging</h6>
+                      <p>Chat with your team</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="collab">
+                <h1>INTELLIGENCE</h1>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <h6>
+                        <img src="/dist/img/ai-sparkles.svg" alt="">
+                        Slacks AI</h6>
+                      <p>Save time and work smarter with powerful simple AI</p>
+                    </li>
+                   
+                  </ul>
+                </div>
+  
+                <h1 class="tmdz">ENTERPRISE PLATFORM</h1>
+                <div class="info">
+                  <ul>
+                    <li>
+                      <h6>Security</h6>
+                      <p>Protect data , ensure compliance</p>
+                    </li>
+                    <li>
+                      <h6>Enterprise Key Management</h6>
+                      <p>Monitor and revoke access</p>
+                    </li>
+                    <li>
+                      <h6>Stack Atlas</h6>
+                      <p>Discover rich profiles and org charts</p>
+                    </li>
+                   
+                  </ul>
+                </div>
+               
+              </div>
+              <div class="collab">
+                
+               
+              </div>
+  
+  
+  
+            </div>
+
+
+            <div class="drop_card">
+              <div class="story_content">
+                <div class="sub_label">
+                  FEATURED
+                </div>
+                <div class="story_img">
+                  <img src="/dist/img/slack-tour-promo2x.png" alt="">
+                </div>
+                <div class="story_label">
+                  <p>
+                    Take a quick interactive tour of slack
+                  </p>
+                </div>
+                <div class="story_btn">
+                  <h1>Start the tour</h1>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="sub_content">
+                <ul>
+                  <li>What is Stack?</li>
+                  <li>Slack vs. Email</li>
+                  <li>Accessibility</li>
+                </ul>
+              </div>
+           </div>
+
+          
+          </div>
+        
+          <div class="drop_footer">
+            <div class="btndemo">Watch Demo</div>
+            <span></span>
+            <div class="btndlsta">Download Slack</div>
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </div>
+         
+         </div>
+
+        
+        </div>
+
+       
+        <div class="drop_content" id="drp_sol">
+        
+
+          <div class="maincont_container">
+            <div class="main_cont_wrapper">
+  
+              <div class="drop_text">
+                <div class="collab">
+                  <h1>BY DEPARTMENT</h1>
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <h6>Engineering</h6>
+                      
+                      </li>
+                      <li>
+                        <h6>IT</h6>
+                       
+                      </li>
+                      <li>
+                        <h6>Customer Service</h6>
+                       
+                      </li>
+                      <li>
+                        <h6>Sales</h6>
+                        
+                      </li>
+                      <li>
+                        <h6>Project Management</h6>
+                      </li>
+                      <li>
+                        <h6>Marketing</h6>
+                      </li>
+                      <li>
+                        <h6>Human Resources</h6>
+                      </li>
+                      <li>
+                        <h6>Security</h6>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="collab">
+                  <h1>BY INDUSTRY </h1>
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <h6>Manufacture, Auto & Energy</h6>
+                      </li>
+                      <li>
+                        <h6>Technology</h6>
+                      </li>
+                      <li>
+                        <h6>Media</h6>
+                      </li>
+                      <li>
+                        <h6>Small Business</h6>
+                      </li>
+                      <li>
+                        <h6>Financial Services</h6>
+                      </li>
+                      <li>
+                        <h6>Retail</h6>
+                      </li>
+                      <li>
+                        <h6>Education</h6>
+                      </li>
+                      <li>
+                        <h6>Health and Life Sciences</h6>
+                      </li>
+                    </ul>
+                  </div>            
+                </div>
+             
+    
+    
+    
+              </div>
+  
+  
+              <div class="drop_card">
+                <div class="story_content">
+                  <div class="sub_label">
+                    TEMPLATE GALLERY
+                  </div>
+                  <div class="story_img">
+                    <img src="/dist/img/feature-template-gallery2x.jpg" alt="">
+                  </div>
+                  <div class="story_label">
+                    <p>
+                     Start work faster with pre- made templates for every task.
+                    </p>
+                  </div>
+                  <div class="story_btn">
+                    <h1>Start the tour</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="sub_content">
+                  <ul>
+                  <li>Task Management</li>
+                  <li>Scale</li>
+                  <li>Engagement</li>
+                  <li>Trust</li>
+                   
+                  </ul>
+                </div>
+             </div>
+  
+            
+            </div>
+          
+            <div class="drop_footer">
+              <div class="btndemo">Watch Demo</div>
+              <span></span>
+              <div class="btndlsta">Download Slack</div>
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+            </div>
+           
+           </div>
+  
+
+
+
+
+
+        </div>
+        <div class="drop_content" id="drp_reso">
+       
+          
+          <div class="maincont_container">
+            <div class="main_cont_wrapper">
+  
+              <div class="drop_text">
+                <div class="collab">
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <h6>Resources Library</h6>
+                      
+                      </li>
+                      <li>
+                        <h6>Events</h6>
+                       
+                      </li>
+                      <li>
+                        <h6>Customer Stories</h6>
+                       
+                      </li>
+                      <li>
+                        <h6>Blog</h6>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="collab">
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <h6>What's New</h6>
+                      </li>
+                      <li>
+                        <h6>Developers</h6>
+                      </li>
+                      <li>
+                        <h6>Community</h6>
+                      </li>
+                      <li>
+                        <h6>Stack Marketplace</h6>
+                      </li>
+                    </ul>
+                  </div>            
+                </div>
+                <div class="collab">
+                  <div class="info">
+                    <ul>
+                      <li>
+                        <h6>Product Tour</h6>
+                      </li>
+                      <li>
+                        <h6>Partners</h6>
+                      </li>
+                      <li>
+                        <h6>Slack Verified</h6>
+                      </li>
+                    </ul>
+                  </div>            
+                </div>
+             
+    
+    
+    
+              </div>
+  
+  
+              <div class="drop_card">
+                <div class="story_content">
+                  <div class="sub_label">
+                    TEMPLATE GALLERY
+                  </div>
+                  <div class="story_img">
+                    <img src="/dist/img/nav-ad-success-hub2x.png" alt="">
+                  </div>
+                  <div class="story_label">
+                    <p>
+                     Start work faster with pre- made templates for every task.
+                    </p>
+                  </div>
+                  <div class="story_btn">
+                    <h1>Start the tour</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="sub_content">
+                  <ul>
+                  <li>Help Center</li>
+                  <li>Customer Support</li>
+                  </ul>
+                </div>
+             </div>
+  
+            
+            </div>
+          
+            <div class="drop_footer">
+              <div class="btndemo">Watch Demo</div>
+              <span></span>
+              <div class="btndlsta">Download Slack</div>
+              <i class="fa-solid fa-cloud-arrow-down"></i>
+            </div>
+           
+           </div>
+  
+
+
+
+
+
+        </div>
+       
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="sidepanel">
+       
+    
+        <div class="sidepanheader">
+          <div class="ext_btn" onclick="itemPanel(),sideBarbtn(),feature_On()">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h1>Back</h1>
+          </div>
+          <div class="btn_ext" onclick="solution_On()">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h1>Back</h1>
+          </div>
+          <div class="btn_ext_res" onclick="resource_On()">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h1>Back</h1>
+          </div>
+
+
+
+
+          <div class="logo">
+            <img src="/dist/img/logo.png" alt="">
+          </div>
+          <i class="fa-solid fa-x" onclick="showPanel()"></i>
+        </div>
+
+        <div class="content_wrapper">
+          <div class="content">
+           
+           <div class="content_nav">
+            <ul>
+              <li onclick="itemPanel(),sideBarbtn(),feature_On()">
+                <h1>Features</h1>
+                <i class="fa-solid fa-angle-right"></i>  
+              </li>
+              <li onclick="solution_On()">
+                <h1>Solutions</h1>
+                <i class="fa-solid fa-angle-right"></i>  
+              </li>
+              <li>
+                <h1>Enterprise</h1>
+              </li>
+              <li onclick="resource_On()">
+                <h1>Resources</h1>
+                <i class="fa-solid fa-angle-right"></i>  
+              </li>
+              <li>
+                <h1>Pricing</h1>
+              </li>
+              <li>
+                <h1>Watch demo</h1>
+              </li>
+              <li>
+                <h1>Sign in</h1>
+              </li>
+
+
+
+
+            </ul>
+           </div>
+
+           <div class="items">
+              <ul class="features" id="itemPan">
+                <h1>COLLABORATION</h1>
+                <li>
+                  <h6>Channels</h6>
+                  <p>Organize teams and work</p>
+                </li>
+                <li>
+                  <h6>Slack Connect</h6>
+                  <p>  Work with external partners</p>
+                </li>
+                <li>
+                  <h6>Messaging</h6>
+                  <p>Chat with your team</p>
+                </li>
+                <li>
+                  <h6>Huddles</h6>
+                  <p>Meet with audio and video</p>
+                </li>
+                <li>
+                  <h6>Clips</h6>
+                  <p>Record and share updates</p>
+                </li>
+                <!-- 2 -->
+                <h1 id="othersss">PROJECT MANAGEMENT</h1>
+                <li>
+                  <h6>Templates</h6>
+                  <p>Start any task, fast</p>
+                </li>
+                <li>
+                  <h6>Canvas</h6>
+                  <p>Create rich, flexible docs</p>
+                </li>
+                <li>
+                  <h6>Lists</h6>
+                  <p>Organize, track and manage projects</p>
+                </li>
+                <li>
+                  <h6>Search</h6>
+                  <p>Seek shared knowledge</p>
+                </li>
+                <li>
+                  <h6>File Sharing</h6>
+                  <p>Bring files to the flow of work</p>
+                </li>
+                <!-- 3 -->
+                <h1 id="othersss">INTEGRATIONS</h1>
+                <li>
+                  <h6>Workflow Builder</h6>
+                  <p>Automate everyday tasks</p>
+                </li>
+                <li>
+                  <h6>Apps & Integrations</h6>
+                  <p>Connect your tools with Slack</p>
+                </li>
+                <li>
+                  <h6> Slack and Salesforce</h6>
+                  <p>Chat with your team</p>
+                </li>
+                <!-- 4 -->
+                <h1 id="othersss">INTELLIGENCE</h1>
+                <li>
+                  <h6 id="ai_spark">
+                    <img src="/dist/img/ai-sparkles.svg" alt="">
+                    Slacks AI</h6>
+                  <p>Save time and work smarter with powerfully simple AI</p>
+                </li>
+                <!-- 5 -->
+                  <!-- 3 -->
+                <h1 id="othersss">ENTERPRISE PLATFORM</h1>
+                
+
+
+
+
+                <li>
+                  <h6>Security</h6>
+                  <p>Protect data, ensure compliance</p>
+                </li>
+                <li>
+                  <h6>Enterprise Key Management</h6>
+                  <p>Monitor and revoke access</p>
+                </li>
+                <li>
+                  <h6>Slack Atlas</h6>
+                  <p>Discover rich profiles and org charts</p>
+                </li>
+              </ul>
+              <ul class="solution" id="itemPan">
+                <h1>BY DEPARTMENT</h1>  
+                <li>
+                  <h6>Engineering</h6>
+                </li>
+                <li>
+                  <h6>IT</h6>
+                </li>
+                <li>
+                  <h6>Customer Service</h6>
+                </li>
+                <li>
+                  <h6>Sales</h6>
+                </li>
+                <li>
+                  <h6>Project Management</h6>
+                </li>
+                <li>
+                  <h6>Marketing</h6>
+                </li>
+                <li>
+                  <h6>Human Resources</h6>
+                </li>
+                <li>
+                  <h6>Security</h6>
+                </li>
+                <!-- 2 -->
+                <h1 id="othersss" >BY INDUSTRY</h1>
+                <li>
+                  <h6>Technology</h6>
+                </li>
+                <li>
+                  <h6>
+                    Media
+                  </h6>
+                </li>
+                <li>
+                  <h6>
+                    Small Business
+                  </h6>
+                </li>
+                <li>
+                  <h6>
+                    Financial Services
+                  </h6>
+                </li>
+                <li>
+                  <h6>
+                    Education
+                  </h6>
+                </li>
+                <li>
+                  <h6>
+                    Health & Life Sciences
+                  </h6>
+                </li>               
+                  <div class="seeol">
+                   See all solutions
+                  </div>
+               
+              </ul>
+              <ul class="resources" id="itemPan">
+                <h1>Resources</h1>  
+                <li>
+                  <h6>Resources Library</h6>
+                </li>
+                <li>
+                  <h6>Whats New</h6>
+                </li>
+                <li>
+                  <h6>Product Tour</h6>
+                </li>
+                <li>
+                  <h6>Events</h6>
+                </li>
+                <li>
+                  <h6>Developers</h6>
+                </li>
+                <li>
+                  <h6>Partners</h6>
+                </li>
+                <li>
+                  <h6>Customer Stories</h6>
+                </li>
+                <li>
+                  <h6>Community</h6>
+                </li>
+                <li>
+                  <h6>Stack Verified</h6>
+                </li>
+                <li>
+                  <h6>Blog</h6>
+                </li>
+                <li>
+                  <h6>Stack Marketplace</h6>
+                </li>
+                
+                
+               
+              </ul>
+
+              
+              
+
+
+              <div class="feature_card">
+                <div class="card_cont">
+                  <div class="card_title">
+                    FEATURED
+                  </div>
+                  <div class="card_banner">
+                    <img src="/dist/img/feature-template-gallery2x.jpg" alt="">
+                  </div>
+                  <div class="info">
+                   Take a quick interactive tour of Slack.
+                  </div>
+                  <div class="see">
+                    <h1>See the tour</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <span></span>
+                  <ul>
+                    <li><a href="">What is Slack?</a></li>
+                    <li><a href="">Stack vs. Email</a></li>
+                    <li><a href="">Accessibility</a></li>
+                  </ul>
+                  
+
+                </div>
+
+              </div>
+
+
+              <div class="feature_card" id="solution_card">
+                <div class="card_cont">
+                  <div class="card_title">
+                    TEMPLATE GALLERY
+                  </div>
+                  <div class="card_banner">
+                    <img src="/dist/img/slack-tour-promo2x.png" alt="">
+                  </div>
+                  <div class="info">
+                   start work faster with pre- made templates for every task
+                  </div>
+                  <div class="see">
+                    <h1>See the tour</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <span></span>
+                  <ul>
+                    <li><a href="">Task Management</a></li>
+                    <li><a href="">Scale</a></li>
+                    <li><a href="">Engagement</a></li>
+                    <li><a href="">Trust</a></li>
+                  </ul>
+                  
+
+                </div>
+
+              </div>
+
+              <div class="feature_card" id="resources_card">
+                <div class="card_cont">
+                  <div class="card_title">
+                      FEATURED
+                  </div>
+                  <div class="card_banner">
+                    <img src="/dist/img/nav-ad-success-hub2x.png" alt="">
+                  </div>
+                  <div class="info">
+                   start work faster with pre- made templates for every task
+                  </div>
+                  <div class="see">
+                    <h1>Get started</h1>
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <span></span>
+                  <ul>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Customer Support</a></li>
+                  </ul>
+                  
+
+                </div>
+
+              </div>
+
+
+
+
+
+
+              <div class="items_btn">
+                <button>TALK TO SALES</button>
+                <button>DOWNLOAD SLACK</button>
+              </div>
+
+           </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="sidepanfooter">
+          <button>TALK TO SALES</button>
+          <button>DOWNLOAD SLACK</button>
+        </div>
+
+       
+    </div>
+    <!-- dito ka mag code -->
+
+
+ 
+    <!-- <div class="banner">
+      <div class="container">
+        <div class="lol"></div>
+      </div>
+    </div> -->
+
+
+
+
+    
+    
+
+    <!-- hanggang dito lang -->
+     <footer>
+      <div class="footer">
+        <div class="container">
+
+          <div class="logo">
+            <img src="/dist/img/footerlogo.svg" alt="">
+          </div>
+          <div class="nav_footer_drop">
+            <ul>
+
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+              <li>
+              
+                <div class="nav_parent">
+                  <div class="title">PRODCUT</div>
+                  <div class="icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </div>
+                
+                <ul class="items">
+                  <li><a href="">Watch Demo</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Paid vs. Free</a></li>
+                  <li><a href="">Accessibility</a></li>
+                  <li><a href="">Featured Releases</a></li>
+                  <li><a href="">Changelog</a></li>
+                  <li><a href="">Status</a></li>
+                </ul>
+
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer_nav">
+            <div class="nav_container">
+
+              <div class="list">
+                <div class="title">PRODCUT</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="list">
+                <div class="title">Features</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="list">
+                <div class="title">Solutions</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="list">
+                <div class="title">Resources</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="list">
+                <div class="title">Company</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="list">
+                <div class="title">WHY SLACK?</div>
+                <div class="content">
+                  <ul>
+                    <li><a href="">Watch Demo</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Paid vs. Free</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Featured Releases</a></li>
+                    <li><a href="">Changelog</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+
+       
+
+        </div>
+
+
+        
+      </div>
+
+      <div class="footer_misc">
+         <div class="container">
+          <div class="download">
+            <h1>Download Stack</h1>
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </div>
+          <div class="priv">
+            <ul>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Cookie Preferences</a></li>
+              <li>
+                <a href="">Your Privacy Choice</a>
+                <a href=""><img src="/dist/img/ccpa.svg" alt=""></a>
+              </li>
+             
+            </ul>
+          </div>
+          <div class="trademark">
+            ©2024 Slack Technologies, LLC, a Salesforce company. 
+            All rights reserved. Various trademarks held by their
+            respective owners.
+           </div>
+         </div>
+         
+      </div>
+    </footer> 
+
+    <script src="/dist/js/burgir.js"></script>
+     <script src="/dist/js/lanorio.js"></script>
+</body>
+</html>
